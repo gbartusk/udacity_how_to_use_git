@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Creates a new git repo but will not commit any of the existing files that are in the folder. This is also create a .git directory for tracking all the meta data.
+
+~~~
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a file, generally contained in your Git directory (.git), that stores information about what will go into your next commit. It’s sometimes referred to as the “index”, but it’s also common to refer to it as the staging area. Untracked files are any files in your working directory that were not in your last snapshot and are not in your staging area
+
+~~~
