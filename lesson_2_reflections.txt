@@ -8,3 +8,28 @@ How is the staging area different from the working directory and the repository?
 The staging area is a file, generally contained in your Git directory (.git), that stores information about what will go into your next commit. It’s sometimes referred to as the “index”, but it’s also common to refer to it as the staging area. Untracked files are any files in your working directory that were not in your last snapshot and are not in your staging area
 
 ~~~
+How can you use the staging area to make sure you have one commit per logical change?
+
+Use 'git diff' to see the differences between the cwd and the staging area and 'git diff --staged' to see the diffs between the staging area and the most recent commit.
+
+~~~
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When i need to work on a longer term revamp of a project but still need to also roll out periodic bug fixes and enhancements to current production version.
+
+~~~
+How do the diagrams help you visualize the branch structure?
+
+They help show the non-linear structure of projects history.
+
+~~~
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It aggregated all the changes into a single working file, ie if you had two branches then it would once agains become lienar.
+
+~~~
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It takes more time upfront when there are conflicts but avoids the danger of creating a merged file that may not be what you intended. There are so many corner cases to figure out when there is a conflict, it certainly seems best to ask the developer to determine the correct outcome.
+
+
