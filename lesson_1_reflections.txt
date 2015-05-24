@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It allowed me to see a comparison with the old file which i knew was already working.
+
+~~~
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If I make a lot of changes and there turns out to be a bug, i can both diff against an old version as well as roll-back to a prior version (say there was a corner case that wasn’t considered prior to release).
+
+~~~
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Each member of the team may follow different practice, developers need to be well coached on when to commit.
+
+~~~
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+programs are often made up of multiple files and you want each commit to represent the state of the total program at that point in time, not just a portion of the program.
+
+~~~
+How can you use the commands git log and git diff to view the history of files?
+
+git log will show me the history of the commits, and if i run it with —stat then i will see which files were changed and the total lines added and removed. git diff will also show many how many lines were added and removed, except it will also show me the actual code.
+
+~~~
+How might using version control make you more confident to make changes that could break something?
+
+Because i could always roll back to a previous version - referred to as the peltzman effect in economics lit.
+
+~~~
+Now that you have your workspace set up, what do you want to try using Git for?
+
+i would like to add a new repo under kaggle directory for another competition.
+
+
